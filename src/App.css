@@ -1,0 +1,98 @@
+/* App.css */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #6e4de6;
+
+  
+}
+
+.header {
+  position: relative;
+  height: 200px; /* Adjust the height as needed */
+}
+
+.header-image {
+  width: 0%;
+  height: 0%; /* Ensure the image covers the entire header */
+
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #606060;
+}
+
+.main-content {
+  flex: 1;
+}
+
+
+
+/* App.css */
+
+
+.cards{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.button{
+  color:#333;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 80px;
+  height: 35px;
+}
+.link{
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 700;
+  
+}
+.link:hover{
+  text-decoration: underline;
+}
+.btn{
+  text-align: center;
+ width: 100%;
+ height: 50%;
+ 
+}
+.section {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+  
+.section:last-child {
+  border-right: none;
+}
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-weight: 700;
+  
+}
+.test {
+display: flex;
+  border: 1px solid rgb(255, 255, 255); /* Add border if needed */
+  padding: 10px;
+  border-right: 1px solid rgb(255, 255, 255);
+text-align: center;
+}

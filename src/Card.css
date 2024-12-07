@@ -1,0 +1,82 @@
+.box{
+    position: relative;
+    border: 1px solid rgb(156, 154, 154);
+    width: 160px;
+    height: 175px;
+    border-radius: 7%;
+    padding: 10px 20px 20px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+p{
+    margin: 0px;
+    font-weight: 500;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.circle{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    top: 55px;
+    right: 15px;
+}
+
+
+.app-layout {
+    display: flex;
+}
+
+/* Left side for the image */
+.left-side {
+    width: 20%; /* Adjust the width as desired */
+    padding: 10px;
+}
+
+/* Left side image styles */
+.left-side-image {
+    width: 100%; /* Ensure the image fills the left side */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Main content area styles */
+.main-content {
+    width: 100%; /* Adjust the width as desired */
+    padding: 10px;
+}
+.glass {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fffcfc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px  #5f74a3;
+
+}
+.ctest{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fffcfc;
+
+    top: 55px;
+    right: 15px;
+}
+.app{
+    background-image: url('C:\Users\Dell\OneDrive\Desktop\maruthi1\React_project\haveri-project\public\LoginBackground.jpg');
+    color:rgba(185, 185, 219, 0.927);
+}
